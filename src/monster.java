@@ -21,6 +21,6 @@ public class Monster {
     }
 
     public String toString(){
-        return ("Il mostro " + nome + " che fa " + danno + " punti vita di danno ha ancora " + " di vita");
+        return ("Il mostro " + nome + " che fa " + danno + " punti vita di danno ha ancora " + puntiFerita + " di vita");
     }
 }

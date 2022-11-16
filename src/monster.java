@@ -11,11 +11,11 @@ public class Monster {
         return danno;
     }
 
-    public subisci(int dannoAvversario){
+    public void subisci(int dannoAvversario){
         puntiFerita-= dannoAvversario;
     }
 
     public String toString(){
-        return ("Il mostro " + nome + " che fa " + danno + " punti vita di danno ha ancora " + " di vita")
+        return ("Il mostro " + nome + " che fa " + danno + " punti vita di danno ha ancora " + " di vita");
     }
 }

@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Monster monster1 = new Monster("gianno", 30, 1);
+
     }
 }

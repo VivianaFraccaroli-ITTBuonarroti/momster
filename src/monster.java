@@ -1,16 +1,19 @@
 public class Monster {
     private String nome;
     private int puntiFerita;
+
+    private Weapon arma;
     private int danno;
 
-    void Monster(String nome, int puntiFerita, int danno){
+    Monster(String nome, int puntiFerita, int danno, int dannoArma){
         this.nome = nome;
         this.puntiFerita = puntiFerita;
         this.danno = danno;
+        arma = new Weapon(dannoArma);
     }
 
     public int attacca(){
-        return danno;
+        return danno + arma.getDannoArma();
     }
 
     public void subisci(int dannoAvversario){
